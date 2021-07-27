@@ -1,0 +1,16 @@
+.list-inline {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list-inline a {
+  color: white;
+  
+}
+
+.list-inline  :hover {
+  color: white;
+  text-decoration: none;
+}
