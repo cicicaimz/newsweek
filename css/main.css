@@ -1,16 +1,35 @@
-.list-inline {
+
+h3 {
+  padding: 20px;
+  margin-left: -40px;
+}
+
+.sidelist {
   color: red;
-  text-decoration: none;
-  font-size: 20px;
-  text-align: center;
+
 }
 
-.list-inline a {
-  color: white;
+.cici-nav {
+  margin-bottom: 0
+}
+
+.sidelink {
+  color: black;
   
+  font-weight: bold; 
 }
 
-.list-inline  :hover {
-  color: white;
-  text-decoration: none;
+.sidelink :hover {
+  color: black;
+}
+
+.row .col-sm-9 {
+  text-align: center;
+  display: inline-block;
+}
+
+
+.row .col-md-3 {
+  background: red;
+  height: 500px;
 }
