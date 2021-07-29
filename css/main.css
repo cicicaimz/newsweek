@@ -4,7 +4,23 @@ h3 {
   margin-left: -40px;
 }
 
+.main-col {
+  padding-left: 0;
+  text-align: center;
+}
+
+.main-text {
+  
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+}
+.img-responsive {
+  width: 100%;
+}
+
 .sidelist {
+  list-style: square;
   color: red;
 
 }
@@ -29,7 +45,3 @@ h3 {
 }
 
 
-.row .col-md-3 {
-  background: red;
-  height: 500px;
-}
