@@ -17,6 +17,7 @@ h3 {
 }
 .img-responsive {
   width: 100%;
+  position: relative;
 }
 
 .sidelist {
