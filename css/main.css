@@ -4,26 +4,34 @@ h3 {
   margin-left: -40px;
 }
 
+#main-article {
+  
+  position: relative;
+}
+
 .main-col {
   padding-left: 0;
   text-align: center;
 }
 
 .main-text {
-  
   bottom: 0; 
   left: 0; 
   right: 0;
+  border-top: 3px solid red;
 }
+
 .img-responsive {
   width: 100%;
   position: relative;
 }
 
+
+
 .sidelist {
   list-style: square;
   color: red;
-
+ 
 }
 
 .cici-nav {
@@ -45,4 +53,13 @@ h3 {
   display: inline-block;
 }
 
-
+@media (min-width: 992px) {
+  .main-text {
+      position: absolute;
+    
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,1) 50%);
+  }    
+}
